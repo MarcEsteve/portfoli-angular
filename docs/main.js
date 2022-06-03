@@ -547,7 +547,7 @@ var InfoPaginaService = /** @class */ (function () {
     InfoPaginaService.prototype.cargarEquipo = function () {
         var _this = this;
         // Leer el archivo JSON
-        this.http.get('https://angular-html-25cf9.firebaseio.com/equipo.json')
+        this.http.get('https://prova3-b13e7-default-rtdb.europe-west1.firebasedatabase.app/equip.json')
             .subscribe(function (resp) {
             _this.equipo = resp;
             // console.log(resp);
